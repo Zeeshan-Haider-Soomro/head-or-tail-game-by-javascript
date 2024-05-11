@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body{
+.hero{
     background: linear-gradient( 120deg, #054126, #46129a); 
     /* background-repeat: no-repeat; */
     /* background-position: center;
@@ -12,9 +12,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 300px;
+    width: 100%;
+    height: 100vh;
 }
-button{
-    /* height: 100px; */
-
+.button01{
+    height: 100px;
+    width: 500px;
 }
