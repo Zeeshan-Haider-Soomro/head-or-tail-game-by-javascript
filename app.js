@@ -33,9 +33,17 @@ function gamePlay() {
   console.log(gamePlus);
 
   if (userInput === gamePlus) {
-    Swal.fire("YOU WON");
+    Swal.fire({
+      title: "YOU WON",
+      text: "CONGRATUALTIONS",
+      icon: "success"
+    });
   } else {
-    Swal.fire("YOU LOSE");
+    Swal.fire({
+      title: "YOU LOSE",
+      text: "TRY AGAIN",
+      icon: "error"
+    });
   }
 }
 gamePlay();

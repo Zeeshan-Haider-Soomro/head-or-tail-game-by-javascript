@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient( 120deg, #054126, #46129a); 
+    /* background-repeat: no-repeat; */
+    /* background-position: center;
+    background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+button{
+    /* height: 100px; */
+
+}
